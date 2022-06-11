@@ -76,8 +76,8 @@ def Average(lst):
 
 output = []
 
+### 10 input files extracted at 10 different points of time are used to calculated the average number of water molecules. Change frame range below for your cases.
 for frame in range(0,1100, 100):
-    #cmd.frame(frame)
     cmd.load('extract-um%s-%s.pdb' %((um), (frame)))
     zvalueTop = calZvalueTop() 
     zvalueBot = calZvalueBot() 
