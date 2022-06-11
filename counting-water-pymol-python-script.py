@@ -1,7 +1,9 @@
-###python scri[t ]
+### This script uses Pymol to select water molecules, and numpy to increase the performance. Make sure that you have Pymol installed. 
+
 from pymol import cmd 
 import numpy as np
 
+#change this value and its related parts in the names of input files to match your input file data. 
 um = 557 
 
 def calZvalueTop():
