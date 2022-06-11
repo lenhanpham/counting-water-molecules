@@ -4,7 +4,7 @@ from pymol import cmd
 import numpy as np
 
 #change this value and its related parts in the names of input files to match your input file data. 
-um = 557 
+um = 517  
 
 def calZvalueTop():
     cmd.select('seleZTop', 'resn MS2 and name SMS5 + resn MS2 and name SMS6 + resn MS2 and name SMS7 + resn MS2 and name SMS8')
